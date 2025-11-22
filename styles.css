@@ -1,3 +1,20 @@
+.logo-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+}
+.logo-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+}
 .price-offer {
     display: flex;
     align-items: center;
