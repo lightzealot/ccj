@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCjerusalem.com en venta</title>
+    <title>SE VENDE DOMINIO</title>
     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3176/3176296.png">
-    <meta property="og:title" content="Dominio www.ccjerusalem.com en venta - Oferta especial" />
-    <meta property="og:description" content="Adquiere el dominio premium www.ccjerusalem.com por solo $300 USD. Ideal para proyectos religiosos, institucionales o empresariales. Oferta limitada." />
+    <meta property="og:title" content="SE VENDE DOMINIO" />
+    <meta property="og:description" content="Dominio www.ccjerusalem.com en venta por 500 USD. Contacto: imbeaglenia@gmail.com" />
     <meta property="og:image" content="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" />
     <meta property="og:url" content="https://ccjerusalem.com" />
     <meta property="og:type" content="website" />
@@ -15,80 +15,21 @@
 </head>
 <body>
     <div class="top-bar">
-        <div class="company-logo">
-            <div class="logo-img-wrapper">
-                <img src="https://cdn-icons-png.flaticon.com/512/1822/1822920.png" alt="Logo Cruz Religiosa" class="logo-img">
-            </div>
-            <span class="company">CCJerusalem Domains</span>
+        
         </div>
-        <div class="contact-info">
-            
-            <span>✉️ Contacto: imbeaglenia@gmail.com</span>
-        </div>
+        
     </div>
     <div class="main-content">
         <div class="overlay"></div>
         <div class="center-box">
-            <h1 class="corporate-title">Dominio Premium</h1>
+            <h1 class="sale-title">SE VENDE DOMINIO</h1>
             <h2 class="domain">www.ccjerusalem.com</h2>
-            <div class="desc">Impulsa tu proyecto con un nombre único, profesional y fácil de recordar.</div>
-            <ul class="benefits">
-                <li>✔️ Transferencia inmediata</li>
-                <li>✔️ Ideal para instituciones, empresas y proyectos religiosos</li>
-                <li>✔️ Excelente posicionamiento y recordación</li>
-            </ul>
-            <div class="timer-section">
-                <span class="timer-label">Oferta especial termina en:</span>
-                <span id="timer" class="timer">00:00:00</span>
-            </div>
+            <div class="contact-sale"><a href="mailto:imbeaglenia@gmail.com?subject=Propuesta por dominio ccjerusalem.com&body=Hola, quiero enviar una propuesta por el dominio ccjerusalem.com">ENVIAR CORREO PARA PROPUESTA</a></div>
             <div class="price-block">
-                <div class="price-offer">
-                    <span class="old-price">Antes: <s>$500 USD</s></span>
-                    <span class="arrow">→</span>
-                    <span class="price">Ahora: <strong>$300 USD</strong></span>
-                </div>
-                <span class="discount">¡40% de descuento por tiempo limitado!</span>
+                <span class="price">500 USD</span>
             </div>
-            <form class="offer-form" id="offerForm" onsubmit="return sendOfferEmail();">
-                <label for="offerInput">¿Quieres ofertar otro valor?</label>
-                <input type="number" id="offerInput" name="offerInput" min="1" placeholder="Tu oferta en USD" required>
-                <button type="submit" class="offer-btn">Enviar oferta</button>
-            </form>
-            <a href="mailto:imbeaglenia@gmail.com?subject=Interesado en ccjerusalem.com&body=Hola, estoy interesado en comprar el dominio ccjerusalem.com" class="contact-btn">Contactar asesor comercial</a>
-            <div class="footer-corp">© 2025. Todos los derechos reservados.</div>
+            <div class="footer-corp">© 2026. Todos los derechos reservados.</div>
         </div>
     </div>
-    <script>
-    // Timer: 48 horas desde la primera carga
-    function startTimer(duration, display) {
-        var timer = duration, hours, minutes, seconds;
-        var interval = setInterval(function () {
-            hours = parseInt(timer / 3600, 10);
-            minutes = parseInt((timer % 3600) / 60, 10);
-            seconds = parseInt(timer % 60, 10);
-            hours = hours < 10 ? "0" + hours : hours;
-            minutes = minutes < 10 ? "0" + minutes : minutes;
-            seconds = seconds < 10 ? "0" + seconds : seconds;
-            display.textContent = hours + ":" + minutes + ":" + seconds;
-            if (--timer < 0) {
-                clearInterval(interval);
-                display.textContent = "¡Oferta finalizada!";
-            }
-        }, 1000);
-    }
-    window.onload = function () {
-        var duration = 48 * 3600; // 48 horas en segundos
-        var display = document.getElementById('timer');
-        startTimer(duration, display);
-    };
-    // Enviar oferta por correo
-    function sendOfferEmail() {
-        var offer = document.getElementById('offerInput').value;
-        var subject = encodeURIComponent('Oferta por ccjerusalem.com');
-        var body = encodeURIComponent('Hola, mi oferta por el dominio ccjerusalem.com es: ' + offer + ' USD');
-        window.location.href = 'mailto:imbeaglenia@gmail.com?subject=' + subject + '&body=' + body;
-        return false;
-    }
-    </script>
 </body>
 </html>
